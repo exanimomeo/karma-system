@@ -1,0 +1,37 @@
+{
+  "title": "Karma System",
+  "description": "A module that allows for the DM to have a Karma Value either given to specific players or the group, representing divine opinion",
+  "version": "0.1",
+  "authors": [
+    {
+      "name": "exanimomeo",
+      "url": "https://github.com/exanimomeo"
+    }
+  ],
+  "scripts": [
+    "scripts/karma-system.js",
+    "scripts/uiHandler.js"
+  ],
+  "url": "https://github.com/exanimomeo/critical-hits-revisited/",
+  "manifest": "https://github.com/exanimomeo/critical-hits-revisited/releases/latest/download/module.json",
+  "download": "https://github.com/exanimomeo/critical-hits-revisited/releases/latest/download/foundry-vtt-critical-rolls-revisited.zip",
+  "id": "karma-system",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "packs": [],
+  "relationships": {
+    "requires": [
+      {
+        "id": "chris-premades",
+        "type": "module"
+      },
+      {
+        "id": "midi-qol",
+        "type": "module"
+      }
+    ],
+    "recommends": []
+  }
+}
